@@ -1,0 +1,20 @@
+Avatar:
+	Resized to 800x800
+	
+Background:
+	Resized to 1400x350
+	
+Posts:
+	Upload limit of 6,012×6,012
+	Resized to 2048x2048
+		
+State:
+	Significant compression, with the 1920x1080 image starting out with a size of 394,348, but after uploading and downloading the image, it maintained its resolution but has a size of 130,517.
+	None of the 3 StegJpeg methods were successful.
+		-swapdct was unable to even hide a message on fullHD-compressed image
+		-lsbdct and -highdct are able to hide in the compressed image, but running -extract on an uploaded image produces an output with a different file size each time, although diff does not find any differences in them.
+	Like Instagram, Visual distortion after StegJpeg hides message on fullHD-compressed image, but no visual distortion after upload
+		No visual distortions after StegJpeg operates on Avatar and Background-sized compressed images
+	To test:
+		Reupload images to see if they continue to get compressed or changed
+	Did not test Dm's

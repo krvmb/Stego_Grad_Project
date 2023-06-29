@@ -1,0 +1,23 @@
+Avatar: Fails for 15360x8640, works for 5760x3840. Size decreases from 6,525,576 to 5,900,194 indicating further compression.
+	Hiding 'Hello' with swapdct, lsb, and high increases size to 10,382,598
+	Extraction
+		Swap: No difference in Reddit processing when uploading the same image. -extract consistently extracts 102 bytes
+		Lsb/High: Different extraction amounts each iteration, as well as when uploading the same image.
+Banner:
+	
+Post: Resolution limit unknown, tested up to 15360x8640
+	StegJpg appears to exponentially increase size of files it hides images, given trying to hide 'Hello'
+		394,348 -> 395,115
+		6,525,576 -> 10,355,964
+		12,536,589 -> 21,543,314
+	Trying to -extract 'Hello' from the 16k file appears to break StegJpg for -swapdct, as it gives a 5MB file of Nul characters. Works for the 5k and below resolutions.
+		StegJpg is able to -extract 'Hello' From the 16k file for -lsbdct and -highdct
+
+State:
+	The swap, lsb, and high functions that StegJpg implements appears to survive any processing that i.redd.it may do.
+	Still need to analyze what changes, if any, Reddit does
+	Potential to examine other image hosts reddit uses like imgur
+	Did not test DM's
+
+Method:
+	Tested using default args for -swapdct, -lsbdct, -highdct

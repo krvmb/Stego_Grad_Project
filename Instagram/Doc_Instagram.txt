@@ -1,0 +1,27 @@
+Uploaded 1920x1080 images, Got back 1080x608 images.
+Uploaded the same image twice, and ran -extract -swapdct -f 20, but the extraction method seems broken. Running the same command multiple times results in extractions that differ by 20+ kilobytes.
+	However, visually, the characters in the binary files appear the same.
+	Md5 does not match, but unclear yet if due to extraction method or actual differing characters
+	Have same exact number of bits
+Resizing the 1920x1080 image to 1080x608 image and then attempting extraction breaks the -extract function, even though only original image hid 5 characters.
+	Resized using MS Paint, which has an output of 127,762 bytes. This is is much higher than the 60,279 that Instagram's resized images have, indicating that they compress
+Hiding 'hello' in the resized 1080x608 image results in a lot of visual distortion and increases file size to 167,054
+	
+Tried using StegHide to hide an image, convert it to a jpg using StegJpg, and then extract the image but it appears that StegHide can't operate on it
+	Purpose was to see if StegHide's extraction could operate on Instagram's images, unlike StegJpg which gives different results for each run, but Instagram doesn't upload bmp files, and StegHide seems not to work on jpg's so this might be a dead end
+	
+Profile imgages get resized to 150x150
+
+DM images get resized to 716x403
+
+Process: 
+	Create and hide a message using StegJpg.
+		Ex: StegJpeg_1.41.exe -hide -highdct  -c InstagramDefault.jpg -m message.txt -s High.jpg
+	Extract the image to make sure it hid properly.
+	Upload to Instagram (select original resolution) and then download using Inspect Element as Instagram doesn't allow image saving.
+	Attempt to extract using StegJpg
+	
+State:
+	Tested using swapdct -f 20 and default -lsbdct, -highdct functions. Have saved Instagram's processed Profile images and posts, but not DM's.
+	Need to investigate why StegJpg's -extract produces different result on the same Instagram-processed image each iteration
+	Need to find what Instagram overwrites/changes

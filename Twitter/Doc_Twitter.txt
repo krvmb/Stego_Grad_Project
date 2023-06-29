@@ -1,0 +1,22 @@
+Post:
+	15360x8640 resized to 4096x2304
+	5760x3840 resized to 4096x2731, appears that to resize max of 4096x4096
+	Slight decrease in size of 1920x1080 image from 394,348 to 390,680
+	Using the default -swap, -lsb, and -high args, StegJpg was able to survive any potential changes that Twitter does
+
+Avatar:
+	Full HD resized to 400x400
+	Unable to Hide even 1 byte using -swap on a 400x400 image so did not test with Twitter
+		Trying to extract results in a file full of NULL
+	Size differences for rerunning -extract, but diff picks up only a single character difference
+	Windows' Preview and MS Paint show clear distortion, but none visible after upload
+
+Banner:
+	Full HD resized to 1500x500
+	Everything same as Avatar
+	
+State:
+	Successful Stego on Twitter Posts, limited Avatar and Banner methods
+	Of interest is why there is no visible distortion after uploads and subsequent download, but still successful extraction after downloads
+		Twitter must be? processing images in some way for the distortion to not appear, but what
+	Did not do DMs

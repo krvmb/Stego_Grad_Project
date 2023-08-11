@@ -39,6 +39,10 @@ Each file was uploaded to a single article and then downloaded.  Those files upl
 
 Each file was processed using StegO_v1.15B.exe using the following line:
 ```
-StegO_v1.15B.exe -analyze -log -verb +all -i __Img_01_q20.jpg
+StegO_v1.15B.exe -analyze -log -verb +all -i <filename>
+```
+For example
+```
+StegO_v1.15B.exe -analyze -log -verb +all -i __Img_01_q20.jpg 
 ```
 

@@ -37,7 +37,9 @@ Each file was uploaded to a single article and then downloaded.  Those files upl
 |__Img_01_S2_q90.jpg|640x360|__Img_01_S2_q90_posted.jpg|__Img_01_S2_q90_posted_twice.jpg|752x423|
 |__Img_01_S2_q100.jpg|640x360|__Img_01_S2_q100_posted.jpg|__Img_01_S2_q100_posted_twice.jpg|752x423|
 
-Each file was processed using StegO_v1.15B.exe using the following line:
+## Analysis
+### Preparation of Analysis Data
+Each file was analyzed with a program provided by Professor Ortiz named StegO_v1.15B.exe.  The following command line was used to process each file.
 ```
 StegO_v1.15B.exe -analyze -log -verb +all -i <filename>
 ```
@@ -45,4 +47,8 @@ For example
 ```
 StegO_v1.15B.exe -analyze -log -verb +all -i __Img_01_q20.jpg 
 ```
+The resulting log files consist of the string "log_StegO" and the name of the image that was analysed, for example.
+log_StegO__Img_01_q100.log
 
+### Manual Analysis
+The resulting 

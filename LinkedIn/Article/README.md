@@ -22,6 +22,17 @@ Out of the 10 qualities provided byt the professor, four qualities were chosen b
 
 Each file was uploaded to a single article and then downloaded.  Those files uploaded once were renamed to include the string "posted".  The files that were posted once were posted once again and downloaded.  The files uploaded twice were renamed to include the string "posted_twice".  All files were resized by a LinkedIn process to 752x423.
 
-|Original Size| File Name After First Upload | File Name After Second Upload | File Size After First _and_ Second Upload |
-|----------|--------------|--------|------------|
-|dddd|dddd|dddd|dddd|
+|File|Original Size| File Name After First Upload | File Name After Second Upload | File Size After First _and_ Second Upload |
+|-----|----------|--------------|--------|------------|
+|__Img_01_q20.jpg|1920x1080|__Img_01_q20_posted.jpg|__Img_01_q20_posted_twice.jpg|752x423|
+|__Img_01_q50.jpg|1920x1080|__Img_01_q50_posted.jpg|__Img_01_q50_posted_twice.jpg|752x423|
+|__Img_01_q90.jpg|1920x1080|__Img_01_q90_posted.jpg|__Img_01_q90_posted_twice.jpg|752x423|
+|__Img_01_q100.jpg|1920x1080|__Img_01_q100_posted.jpg|__Img_01_q100_posted_twice.jpg|752x423|
+|__Img_01_S1_q20.jpg|1920x1080|__Img_01_S1_q20_posted.jpg|__Img_01_S1_q20_posted_twice.jpg|752x423|
+|__Img_01_S1_q50.jpg|1920x1080|__Img_01_S1_q50_posted.jpg|__Img_01_S1_q50_posted_twice.jpg|752x423|
+|__Img_01_S1_q90.jpg|1920x1080|__Img_01_S1_q90_posted.jpg|__Img_01_S1_q90_posted_twice.jpg|752x423|
+|__Img_01_S1_q100.jpg|1920x1080|__Img_01_S1_q100_posted.jpg|__Img_01_S1_q100_posted_twice.jpg|752x423|
+|__Img_01_S2_q20.jpg|1920x1080|__Img_01_S2_q20_posted.jpg|__Img_01_S2_q20_posted_twice.jpg|752x423|
+|__Img_01_S2_q50.jpg|1920x1080|__Img_01_S2_q50_posted.jpg|__Img_01_S2_q50_posted_twice.jpg|752x423|
+|__Img_01_S2_q90.jpg|1920x1080|__Img_01_S2_q90_posted.jpg|__Img_01_S2_q90_posted_twice.jpg|752x423|
+|__Img_01_S2_q100.jpg|1920x1080|__Img_01_S2_q100_posted.jpg|__Img_01_S2_q100_posted_twice.jpg|752x423|

@@ -85,3 +85,20 @@ And we found evidence of sub-sampling on the chrominance components.  The number
  - Component:1    47 X Blocks,  27 Y Blocks ... Total Blocks:  1269
  - Component:2    47 X Blocks,  27 Y Blocks ... Total Blocks:  1269
 ```
+Comparing the resulting analysis files from the same image posted once and then twice are almost unchanged saved a few DCT components in a few blocks.  Each of these DCT components are changed by 1.
+
+|Block|DCT Coordinates (R,C)|DCT Change|
+|----|----|---|
+|125|2,2|0 _> 1|x
+|217|2,1| 1 -> 0|x
+|229|1,2| 1 -> 0|x
+|240|2,1| -1 -> 0|x
+|251|1,3| 1 -> 0|x
+|310|2,2| 0 -> -1|x
+|325|2,1| -8 -> -9|x
+|326|5,1| -1 -> -2|x
+|331|2,1| -1 -> 0|x
+|347|2,1| -8 -> -7|x
+|414|4,1| 0 -> -1|x
+|429|3,1| 0 -> -1|x
+|508|2,1| 0 -> -1|

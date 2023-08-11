@@ -38,5 +38,7 @@ Each file was uploaded to a single article and then downloaded.  Those files upl
 |__Img_01_S2_q100.jpg|640x360|__Img_01_S2_q100_posted.jpg|__Img_01_S2_q100_posted_twice.jpg|752x423|
 
 Each file was processed using StegO_v1.15B.exe using the following line:
-```StegO_v1.15B.exe -analyze -log -verb +all -i __Img_01_q20.jpg ```
+```
+StegO_v1.15B.exe -analyze -log -verb +all -i __Img_01_q20.jpg
+```
 

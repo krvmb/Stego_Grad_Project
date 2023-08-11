@@ -18,6 +18,7 @@ Out of the 10 qualities provided byt the professor, four qualities were chosen b
 |q50|Quality 20|
 |q90|Quality 90|
 |q100|Quality 100|
+|------|-----|
 
 Each file was uploaded to a single article and then downloaded.  Those files uploaded once were renamed to include the string "posted".  The files that were posted once were posted once again and downloaded.  The files uploaded twice were renamed to include the string "posted_twice".  All files were resized by a LinkedIn process to 752x423.
 

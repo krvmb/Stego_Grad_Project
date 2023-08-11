@@ -77,7 +77,7 @@ For every file uploaded and downloaded from LinkedIn exhibited the same quantiza
  20  20  20  20  20  20  20  20 
  20  20  20  20  20  20  20  20 
 ```
-And we found evidence of sub-sampling on the chrominance components.  The number of blocks for the chrominance components were reduced as well.
+And we found evidence of sub-sampling on the chrominance components.  The number of blocks for the Chrominance components were reduced as well, roughly to a quarter of the Luminance component.
 ```
  ##### Component Block Summary ##### 
 

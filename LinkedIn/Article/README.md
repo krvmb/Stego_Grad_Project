@@ -86,6 +86,7 @@ And we found evidence of sub-sampling on the chrominance components.  The number
  - Component:2    47 X Blocks,  27 Y Blocks ... Total Blocks:  1269
 ```
 Comparing the resulting analysis files from the same image posted once and then twice are almost unchanged saved a few DCT components in a few blocks.  Each of these DCT components are changed by 1.
+The files compared with the StegO analysis files for the images __Img_01_q20_posted.jpg and __Img_01_q20_posted_twice.jpg.
 
 |Luminance Block|DCT Coordinates (R,C)|DCT Change|
 |----|----|---|

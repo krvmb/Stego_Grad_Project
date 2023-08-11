@@ -1,1 +1,3 @@
-# LinkedIn Article Test Files
+# LinkedIn Article Working Files
+
+## Image Files

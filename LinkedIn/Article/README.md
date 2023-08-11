@@ -65,6 +65,7 @@ No matter what the original quantization files were of the original image, every
  10  13  16  17  21  24  24  20 
  14  18  19  20  22  20  21  20 
 ```
+
 And we found evidence of sub-sampling on the chrominance components.  For every file uploaded and downloaded from LinkedIn exhibited the same quantization table for the chrominance components.
 ```
   3   4   5   9  20  20  20  20 

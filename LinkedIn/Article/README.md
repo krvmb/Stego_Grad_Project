@@ -66,7 +66,7 @@ No matter what the original quantization files were of the original image, every
  14  18  19  20  22  20  21  20 
 ```
 
-And we found evidence of sub-sampling on the chrominance components.  For every file uploaded and downloaded from LinkedIn exhibited the same quantization table for the chrominance components.
+For every file uploaded and downloaded from LinkedIn exhibited the same quantization table for the chrominance components.
 ```
   3   4   5   9  20  20  20  20 
   4   4   5  13  20  20  20  20 
@@ -76,4 +76,12 @@ And we found evidence of sub-sampling on the chrominance components.  For every 
  20  20  20  20  20  20  20  20 
  20  20  20  20  20  20  20  20 
  20  20  20  20  20  20  20  20 
+```
+And we found evidence of sub-sampling on the chrominance components.  The number of blocks for the chrominance components were reduced as well.
+```
+ ##### Component Block Summary ##### 
+
+ - Component:0    94 X Blocks,  53 Y Blocks ... Total Blocks:  4982
+ - Component:1    47 X Blocks,  27 Y Blocks ... Total Blocks:  1269
+ - Component:2    47 X Blocks,  27 Y Blocks ... Total Blocks:  1269
 ```

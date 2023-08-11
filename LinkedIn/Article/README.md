@@ -87,7 +87,7 @@ And we found evidence of sub-sampling on the chrominance components.  The number
 ```
 Comparing the resulting analysis files from the same image posted once and then twice are almost unchanged saved a few DCT components in a few blocks.  Each of these DCT components are changed by 1.
 
-|Block|DCT Coordinates (R,C)|DCT Change|
+|Luminance Block|DCT Coordinates (R,C)|DCT Change|
 |----|----|---|
 |125|2,2|0 _> 1|x
 |170|2,1|4 _> 3|x
@@ -110,3 +110,21 @@ Comparing the resulting analysis files from the same image posted once and then 
 |429|3,1| 0 -> -1|x
 |448|3,1| 0 -> -1|x
 |508|2,1| 0 -> -1|
+|524|5,1| 0 -> -1|x
+|532|2,1| 1 -> 0|x
+|535|2,3| 0 -> 1|x
+|537|2,1| -1 -> 0|x
+|543|1,1 (AC)| -198 -> -197|x
+|563|1,3| 1 -> 0|x
+|618|4,1| 0 -> 1|xlast
+|624|2,1| 3 -> 2|x
+|643|3,1| 0 -> -1|x
+|644|2,3| 0 -> -1|x
+|649|2,1| -2 -> -3|x
+|729|2,1| 0 -> -1|x
+|730|2,1| 1 -> 0|x
+|740|1,1 (AC)| -198 -> -197|x
+|744|1,4| 1 -> 0|x
+|746|1,3| 1 -> 2|x
+|817|1,2| 1 -> 2|x
+|842|1,2| -1 -> 0|x
